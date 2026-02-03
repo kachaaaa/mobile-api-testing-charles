@@ -22,4 +22,4 @@ to intercept and analyze mobile web traffic.
 ## 📂 Project Structure
 - `test-cases.md` — documented test cases
 - `bug-reports.md` — documented bug reports
-- `evidence/` — Charles Proxy screenshots
+
