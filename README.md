@@ -22,7 +22,13 @@ to intercept and analyze mobile web traffic.
 
 📂 Project Structure
 
-test-cases/
- ├── TC_Charles_modify_Post.md          — test case for modifying POST request via Charles Breakpoint
- └── observation/
-     └── OBS_Server_closes_connection.md — server behavior observation with screenshots
+mobile-api-testing-charles/
+├── README.md
+└── test-cases/
+    ├── TC_Charles_modify_Post.md
+    │   └─ Test case: modifying POST request via Charles Breakpoint
+    └── observation/
+        ├── OBS_Server_closes_connection.md
+        │   └─ Server behavior observation with screenshots
+        └── screenshots/
+            └── *.png
