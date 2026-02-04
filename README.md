@@ -20,16 +20,23 @@ to intercept and analyze mobile web traffic.
 - https://httpbin.org
 
 
-📂 Project Structure
+## 📂 Project Structure
+
+The repository is organized to clearly separate test cases and observations generated during API testing with Charles Proxy:
 
 mobile-api-testing-charles/
 ├── README.md
-└── test-cases/
-    ├── TC_Charles_modify_Post.md
-    │   - Test case for modifying POST request via Charles Proxy Breakpoints
-    └── observation/
-        ├── OBS_Server_closes_connection.md
-        │   - Observation of server behavior when request body is modified
-        └── screenshots/
-            - Breakpoint overview
-            - Failed POST request
+├── test-cases/
+│   ├── TC_Charles_modify_Post.md
+│   │   └─ Test Case: modification of POST request using Charles Breakpoints
+│   └── observation/
+│       ├── OBS_Server_closes_connection.md
+│       │   └─ Observation: server behaviour when a modified request fails
+│       └── screenshots/
+│           ├── post_failed_breakpoint.png
+│           └── post_200_ok.png
+
+Each directory contains:
+- `test-cases/` — documented test cases executed during API testing  
+- `observation/` — technical observations and results from executed tests  
+- `screenshots/` — visual evidence captured during testing
