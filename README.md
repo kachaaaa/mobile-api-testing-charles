@@ -19,7 +19,9 @@ to intercept and analyze mobile web traffic.
 ## 🌐 Tested Target
 - https://httpbin.org
 
-## 📂 Project Structure
-- `test-cases.md` — documented test cases
-- `bug-reports.md` — documented bug reports
+📂 Project Structure
 
+test-cases/
+ ├── TC_Charles_modify_Post.md          — test case for modifying POST request via Charles Breakpoint
+ └── observation/
+     └── OBS_Server_closes_connection.md — server behavior observation with screenshots
