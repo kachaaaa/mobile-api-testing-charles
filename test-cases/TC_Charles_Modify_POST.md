@@ -21,3 +21,11 @@ Server closes connection without response
 - Intercepted and modified POST requests using Charles Breakpoints
 - Tested server behavior on invalid request payload
 - Observed connection termination without response
+
+
+### Result
+Server closed the connection after request body modification via Charles Breakpoint.
+
+### Related Observation
+See detailed behavior analysis:
+[OBS_Server_closes_connection.md](./observation/OBS_Server_closes_connection.md)
