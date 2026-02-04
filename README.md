@@ -26,9 +26,10 @@ mobile-api-testing-charles/
 ├── README.md
 └── test-cases/
     ├── TC_Charles_modify_Post.md
-    │   └─ Test case: modifying POST request via Charles Breakpoint
+    │   - Test case for modifying POST request via Charles Proxy Breakpoints
     └── observation/
         ├── OBS_Server_closes_connection.md
-        │   └─ Server behavior observation with screenshots
+        │   - Observation of server behavior when request body is modified
         └── screenshots/
-            └── *.png
+            - Breakpoint overview
+            - Failed POST request
