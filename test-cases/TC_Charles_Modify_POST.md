@@ -15,3 +15,9 @@ Server should return validation error or reject request
 
 **Actual Result:**
 Server closes connection without response
+
+## Charles Proxy Tests
+
+- Intercepted and modified POST requests using Charles Breakpoints
+- Tested server behavior on invalid request payload
+- Observed connection termination without response
